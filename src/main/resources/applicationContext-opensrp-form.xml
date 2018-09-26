@@ -14,7 +14,7 @@
     <util:properties id="opensrp" location="classpath:/opensrp.properties"/>
     
     <context:annotation-config/>
-    <context:component-scan base-package="org.opensrp.form"/>
+    <context:component-scan base-package="org.opensrp."/>
 
     <bean id="opensrpFormDatabaseConnector" class="org.ektorp.impl.StdCouchDbConnector">
         <constructor-arg value="${couchdb.db.form}"/>
