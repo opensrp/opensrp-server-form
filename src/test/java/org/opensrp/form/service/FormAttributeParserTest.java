@@ -467,12 +467,6 @@ public class FormAttributeParserTest extends TestResourceLoader{
 			assertThat(sf.formAttributes(), allOf(
 					hasEntry("openmrs_entity", "person"),
 					hasEntry("openmrs_entity_id", "new registration")));
-			
-			assertThat(sf.entityId(), anyOf(
-					equalTo("e9a91c61-0d33-42d3-bf9b-560b4d08c74f"),
-					equalTo("c7305d21-0b90-4c15-a88f-b08338d3aed9"),
-					equalTo("6c2d772b-7d6a-4a05-a83d-5168c183ef42")
-					));
 		}
 	}
 
