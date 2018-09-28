@@ -277,14 +277,14 @@
 
 		<resources>
 			<resource>
-				<directory>../opensrp-server-configs/build</directory>
+				<directory>configs/build</directory>
 				<filtering>true</filtering>
 				<includes>
 					<include>maven.properties</include>
 				</includes>
 			</resource>
 			<resource>
-				<directory>../opensrp-server-configs/assets/config</directory>
+				<directory>configs/assets/config</directory>
 			</resource>
 			<resource>
 				<directory>src/main/resources</directory>
