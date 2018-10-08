@@ -7,7 +7,7 @@
 	<artifactId>opensrp-server-form</artifactId>
 	<packaging>jar</packaging>
 
-	<version>1.0.0-SNAPSHOT</version>
+	<version>1.0.1</version>
 
 	<name>opensrp-server-form</name>
 	<description>OpenSRP Server Form module</description>
@@ -23,6 +23,10 @@
 		<nexus-staging-maven-plugin.version>1.5.1</nexus-staging-maven-plugin.version>
 		<maven-release-plugin.version>2.4.2</maven-release-plugin.version>
 		<mysql.connector.version>5.1.36</mysql.connector.version>
+		
+		<opensrp.common.version>1.0.1</opensrp.common.version>
+		<opensrp.interface.version>1.0.1</opensrp.interface.version>
+		
 	</properties>
 
 	<distributionManagement>
@@ -107,12 +111,12 @@
 		<dependency>
 			<groupId>org.smartregister</groupId>
 			<artifactId>opensrp-server-common</artifactId>
-			<version>1.0.0-SNAPSHOT</version>
+			<version>${opensrp.common.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.smartregister</groupId>
 			<artifactId>opensrp-server-interface</artifactId>
-			<version>1.0.0-SNAPSHOT</version>
+			<version>${opensrp.interface.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework</groupId>
